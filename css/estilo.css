@@ -1,0 +1,247 @@
+h1, h2{
+	color: black;
+	font-family: calibri;
+	font-size: "10";
+}
+strong{
+	color: green;
+}
+p{
+	color: black;
+}
+body{
+	background-color: grey;
+}
+.corpo { 
+	margin: 0 auto;
+    width: 1200px;
+    min-height: 1180px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+
+}
+.cabecalho{
+	margin-top: 3px;
+    width: 100%;
+    height: 220px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: right;
+    background-color: white;
+    
+}
+.logo{
+	margin: 5px;
+	padding-top: 10px;
+	width: 160px;
+	height: 200px;
+	border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    float: left;
+    
+}
+.logo2{
+	margin: 5px;
+	padding-right: 5px;
+	width: 1010px;
+	height: 200px;
+	border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    float: right;
+    background-image: url('../img/Mobile baner 10.jpg');
+    
+}
+
+.menu_hori{
+	margin: 0 auto;
+    width: 100%;
+    height: 50px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    background-color: white;
+}
+a {
+  text-decoration: none;
+}
+
+nav {
+  font-family: monospace;
+  margin: 0 auto;
+  position: relative;
+  width: auto;
+}
+ul {
+	position: relative;
+	
+  	list-style: none;
+  	margin: 0;
+  	padding-left: 0;
+
+}
+li { 
+	position: relative;
+	color: grey;
+	background: ghostwhite;
+	display: inline-block;
+	float: none;
+	padding: 1rem;
+	position: relative;
+	text-decoration: none;
+	transition-duration: 0.5s; 
+}
+ul li a {
+	color: grey;
+	text-decoration: none;
+}
+li:hover,
+li:focus-within {
+  	background: darkgrey;
+  	cursor: pointer;
+}
+li:focus-within a {
+  outline: none;
+}
+ul li ul {
+  background: orange;
+  visibility: hidden;
+  opacity: 0;
+  min-width: 5rem;
+  position: absolute;
+  transition: all 0.5s ease;
+  margin-top: 1rem;
+  left: 0;
+  display: none;
+}
+ul li:hover > ul,
+ul li:focus-within > ul,
+ul li ul:hover,
+ul li ul:focus {
+  visibility: visible;
+  opacity: 1;
+  display: block
+}
+ul li ul li {
+  clear: both;
+  width: 100%;
+}
+
+.centro1 {
+    margin-top: 3px;
+	width: 295px;
+	min-height: 600px;
+	border: 1px red;
+	border-style: solid;
+	border-radius: 10px;
+	float: left;
+}	
+.centro1-ho{
+	margin-top: 3px;
+	width: 295px;
+	min-height: 15px;
+	border: 1px red;
+	border-style: solid;
+	border-radius: 10px;
+	float: left;
+	
+}
+.centro2 {
+    margin: 3px auto;
+    padding-left: 0px;
+    padding-right: 0px;
+    width: 100%;
+    min-height: 800px;
+    border: 0px black;
+    border-style: solid;
+    border-radius: 10px;
+    float: left;
+    text-align: justify;
+    font-family: calibri;
+    background-color: white;
+}
+.avatar1{
+	margin: 3px;
+    padding: 0px;
+    width: 290px;
+    height: 300px;
+    border: 1px black;
+    border-style: solid;
+    border-radius: 10px;
+    float: left;
+    text-align: justify;
+    font-family: calibri;
+    font-size: small;
+}
+.rodape {
+    margin-top: 3px;
+    width: 100%;
+    height: 350px;
+    border: 0px red;
+    border-style: solid;
+    border-radius: 10px;
+    text-align: center;
+    float: left;
+    background-color: white;
+}
+/* #menu-site ul {
+	padding:3px;
+	margin:2px;
+	background-color: white;
+	list-style:none;
+	font-size: 20px;
+	font-family: helvetica; 
+
+}
+#menu-site ul li { 
+	display: block; 
+}
+#menu-site ul li a {
+	margin: 2px;
+	padding: 10px;
+	display: block;*/
+
+	/* visual do link 
+	background-color: white;
+	color: #363636;
+	text-decoration: none;
+	border: 1px white;
+	border-style: solid;
+	border-radius: 10px;
+}
+#menu-site ul li a:hover {
+	background-color: #E6E6FA;
+	color: black;
+	border-bottom:3px solid #708090;
+}
+#menu-site-ho ul {
+	padding:3px;
+	margin:2px;
+	background-color: white;
+	list-style:none;
+	font-size: 20px;
+	font-family: helvetica;
+
+}
+#menu-site-ho ul li { 
+	display: inline-block; 
+}
+#menu-site-ho ul li a {
+	margin: 2px;
+	padding: 10px;
+	display: inline-block;
+
+	/* visual do link 
+	background-color:#E6E6FA;
+	color: grey;
+	text-decoration: none;
+	border-radius: 10px;
+}
+#menu-site-ho ul li a:hover {
+	background-color: #E6E6FA;
+	color: black;
+	border-bottom:3px solid #708090; */
